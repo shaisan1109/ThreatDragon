@@ -1,0 +1,53 @@
+{
+  "version": "2.4.1",
+  "summary": {
+    "title": "ITSECWB Threat Model Practical Exercise",
+    "owner": "",
+    "description": "",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "Customer Places an Order",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.4.1",
+        "cells": []
+      },
+      {
+        "id": 1,
+        "title": "Barista Updates Order Status",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.4.1",
+        "cells": []
+      },
+      {
+        "id": 2,
+        "title": "Manager Accesses Basic Sales Reports",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.4.1",
+        "cells": []
+      },
+      {
+        "id": 3,
+        "title": "Administrator Adds New Menu Item",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.4.1",
+        "cells": []
+      }
+    ],
+    "diagramTop": 4,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
