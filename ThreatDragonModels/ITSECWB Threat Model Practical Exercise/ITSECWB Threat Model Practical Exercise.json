@@ -186,25 +186,29 @@
                   "new": false,
                   "number": 39,
                   "score": ""
+                },
+                {
+                  "id": "19bcc7b4-0ae9-46ba-a898-49e0d2f27243",
+                  "title": "Fraudulent Order Repudiation",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Repudiation",
+                  "description": "A customer could deny placing an order if insufficient logging and non-repudiation controls are in place.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 43,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
                 "spoofing": 2,
                 "tampering": 2,
-                "repudiation": 1,
+                "repudiation": 2,
                 "informationDisclosure": 0,
                 "denialOfService": 0,
                 "elevationOfPrivilege": 0
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -343,14 +347,34 @@
                   "new": false,
                   "number": 24,
                   "score": ""
+                },
+                {
+                  "id": "0b735ba3-7eee-44d3-aa63-085dc9d2be59",
+                  "title": "Fraudulent Order Repudiation",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Repudiation",
+                  "description": "A customer could deny placing an order if insufficient logging and non-repudiation controls are in place.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 44,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
                 "tampering": 1,
-                "repudiation": 0,
+                "repudiation": 1,
                 "informationDisclosure": 0,
                 "denialOfService": 0
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -3867,6 +3891,6 @@
     ],
     "diagramTop": 4,
     "reviewer": "",
-    "threatTop": 42
+    "threatTop": 44
   }
 }
