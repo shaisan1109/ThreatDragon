@@ -1164,16 +1164,36 @@
                   "new": false,
                   "number": 6,
                   "score": ""
+                },
+                {
+                  "id": "7aa43543-1953-4cf0-ae2b-5ce40f2123f2",
+                  "title": "Web Application Server Spoofing",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Spoofing",
+                  "description": "An attacker might set up a fraudulent web server to phish user credentials or intercept sensitive data.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 16,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
-                "spoofing": 1,
+                "spoofing": 2,
                 "tampering": 0,
                 "repudiation": 0,
                 "informationDisclosure": 0,
                 "denialOfService": 0,
                 "elevationOfPrivilege": 0
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -1427,10 +1447,23 @@
                   "new": false,
                   "number": 5,
                   "score": ""
+                },
+                {
+                  "id": "fa00ba06-bcd2-4111-b1cd-0e510ed60ad4",
+                  "title": "Web Application Server Spoofing",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Spoofing",
+                  "description": "An attacker might set up a fraudulent web server to phish user credentials or intercept sensitive data.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 15,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
-                "spoofing": 1,
+                "spoofing": 2,
                 "repudiation": 0
               }
             }
@@ -3378,6 +3411,6 @@
     ],
     "diagramTop": 4,
     "reviewer": "",
-    "threatTop": 14
+    "threatTop": 16
   }
 }
