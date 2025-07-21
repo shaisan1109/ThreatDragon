@@ -139,154 +139,161 @@
                   "id": "b47b4348-e8e4-45e6-a998-5864d3374849",
                   "title": "Customer Account Spoofing",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Medium",
                   "type": "Spoofing",
                   "description": "An attacker could impersonate a legitimate customer to place fraudulent orders or access their order history.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 2,
-                  "score": ""
+                  "score": "5"
                 },
                 {
                   "id": "7dbb8e14-22af-4937-a9a7-4cd64e49e4d6",
                   "title": "Web Application Server Spoofing",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Medium",
                   "type": "Spoofing",
                   "description": "An attacker might set up a fraudulent web server to phish user credentials or intercept sensitive data.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 14,
-                  "score": ""
+                  "score": "5"
                 },
                 {
                   "id": "929ccbe5-cabf-4e7d-a066-190c2b4b6021",
                   "title": "Order Data Tampering",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Medium",
                   "type": "Tampering",
                   "description": "An attacker could modify order details (e.g., items, quantities, prices, status) in transit or at rest.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 23,
-                  "score": ""
+                  "score": "7"
                 },
                 {
                   "id": "84d69eeb-0ab6-404b-8da1-5a472a343e92",
                   "title": "Application Code/Configuration Tampering",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Medium",
                   "type": "Tampering",
                   "description": "Malicious modification of the application’s source code, server configurations, or environment variables could introduce backdoors or disable security features.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 39,
-                  "score": ""
+                  "score": "6"
                 },
                 {
                   "id": "19bcc7b4-0ae9-46ba-a898-49e0d2f27243",
                   "title": "Fraudulent Order Repudiation",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Medium",
                   "type": "Repudiation",
                   "description": "A customer could deny placing an order if insufficient logging and non-repudiation controls are in place.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 43,
-                  "score": ""
+                  "score": "5"
                 },
                 {
                   "id": "3a54b5d0-f1b0-43e2-9a81-ad29901bfbf2",
                   "title": "Customer PII Disclosure",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "High",
                   "type": "Information disclosure",
                   "description": "Unauthorized access to customer names, contact details, delivery addresses, and order history.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 51,
-                  "score": ""
+                  "score": "10"
                 },
                 {
                   "id": "1520d4b0-4c13-46d2-a3e5-ba053c2b8aa1",
                   "title": "Application Code and Configuration Disclosure",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Medium",
                   "type": "Information disclosure",
                   "description": "Exposure of source code, server configurations, environment variables, or API keys.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 59,
-                  "score": ""
+                  "score": "6"
                 },
                 {
                   "id": "b65de9dd-7dbd-4f5c-8e83-29cb9c6c26bf",
                   "title": "Web Application Server DoS",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Medium",
                   "type": "Denial of service",
                   "description": "An attacker could flood the Web Application Server with excessive requests, making it unavailable. ",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 65,
-                  "score": ""
+                  "score": "7"
                 },
                 {
                   "id": "610645f3-767d-4b5b-aab1-12536dd334d4",
                   "title": "MongoDB Database DoS",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Low",
                   "type": "Denial of service",
                   "description": "Malicious or poorly optimized queries could overload the database, making it unresponsive.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 69,
-                  "score": ""
+                  "score": "2"
                 },
                 {
                   "id": "f5de6062-5661-4de7-844a-9a8baa1ece87",
                   "title": "Customer to Staff Privilege Escalation",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "High",
                   "type": "Elevation of privilege",
                   "description": "A customer could exploit a vulnerability to gain unauthorized access to Barista, Manager, or Administrator functionalities. ",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 77,
-                  "score": ""
+                  "score": "10"
                 },
                 {
                   "id": "b00d5c38-4923-4ff6-87c8-a1820861fd22",
                   "title": "Horizontal Privilege Escalation",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Medium",
                   "type": "Elevation of privilege",
                   "description": "Gaining unauthorized access to another user’s account within the same privilege level.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 80,
-                  "score": ""
+                  "score": "6"
                 }
               ],
               "threatFrequency": {
-                "spoofing": 2,
-                "tampering": 2,
-                "repudiation": 2,
-                "informationDisclosure": 2,
-                "denialOfService": 2,
-                "elevationOfPrivilege": 2
+                "spoofing": 4,
+                "tampering": 4,
+                "repudiation": 3,
+                "informationDisclosure": 4,
+                "denialOfService": 4,
+                "elevationOfPrivilege": 4
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -593,31 +600,31 @@
                   "id": "ea9070e6-a285-4a35-bc26-c2d9081526d8",
                   "title": "Customer Account Spoofing",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Medium",
                   "type": "Spoofing",
                   "description": "An attacker could impersonate a legitimate customer to place fraudulent orders or access their order history.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 1,
-                  "score": ""
+                  "score": "5"
                 },
                 {
                   "id": "ec4fa8ee-dede-4ed9-9de0-4d9660fde036",
                   "title": "Web Application Server Spoofing",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Medium",
                   "type": "Spoofing",
                   "description": "An attacker might set up a fraudulent web server to phish user credentials or intercept sensitive data.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 13,
-                  "score": ""
+                  "score": "5"
                 }
               ],
               "threatFrequency": {
-                "spoofing": 2,
+                "spoofing": 4,
                 "repudiation": 0
               }
             }
@@ -778,18 +785,18 @@
                   "id": "24ba9ec9-69bb-42d8-94ea-689c31ad8866",
                   "title": "Order Data Tampering",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Medium",
                   "type": "Tampering",
                   "description": "An attacker could modify order details (e.g., items, quantities, prices, status) in transit or at rest.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 25,
-                  "score": ""
+                  "score": "7"
                 }
               ],
               "threatFrequency": {
-                "tampering": 1,
+                "tampering": 2,
                 "informationDisclosure": 0,
                 "denialOfService": 0
               }
