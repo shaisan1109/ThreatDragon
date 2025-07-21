@@ -2480,13 +2480,26 @@
                   "new": false,
                   "number": 47,
                   "score": ""
+                },
+                {
+                  "id": "f4731248-09fe-4fe5-8c6c-26cc4cc4323f",
+                  "title": "Staff Credential Disclosure",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Exposure of usernames, passwords, or session tokens for staff members due to insecure storage or unencrypted transmission",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 55,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
                 "spoofing": 1,
                 "tampering": 3,
                 "repudiation": 1,
-                "informationDisclosure": 0,
+                "informationDisclosure": 1,
                 "denialOfService": 0,
                 "elevationOfPrivilege": 0
               }
@@ -2641,12 +2654,25 @@
                   "new": false,
                   "number": 48,
                   "score": ""
+                },
+                {
+                  "id": "0758349d-1425-433a-9a78-4e69121a38b6",
+                  "title": "Staff Credential Disclosure",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Exposure of usernames, passwords, or session tokens for staff members due to insecure storage or unencrypted transmission",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 56,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
                 "tampering": 1,
                 "repudiation": 1,
-                "informationDisclosure": 0,
+                "informationDisclosure": 1,
                 "denialOfService": 0
               }
             },
@@ -4041,6 +4067,6 @@
     ],
     "diagramTop": 4,
     "reviewer": "",
-    "threatTop": 54
+    "threatTop": 56
   }
 }
