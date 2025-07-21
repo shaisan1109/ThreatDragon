@@ -173,16 +173,38 @@
                   "new": false,
                   "number": 23,
                   "score": ""
+                },
+                {
+                  "id": "84d69eeb-0ab6-404b-8da1-5a472a343e92",
+                  "title": "Application Code/Configuration Tampering",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "description": "Malicious modification of the application’s source code, server configurations, or environment variables could introduce backdoors or disable security features.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 39,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
                 "spoofing": 2,
-                "tampering": 1,
-                "repudiation": 0,
+                "tampering": 2,
+                "repudiation": 1,
                 "informationDisclosure": 0,
                 "denialOfService": 0,
                 "elevationOfPrivilege": 0
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -3799,6 +3821,6 @@
     ],
     "diagramTop": 4,
     "reviewer": "",
-    "threatTop": 38
+    "threatTop": 39
   }
 }
