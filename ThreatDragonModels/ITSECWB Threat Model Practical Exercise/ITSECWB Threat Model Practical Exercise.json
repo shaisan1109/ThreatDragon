@@ -287,15 +287,6 @@
                 "denialOfService": 2,
                 "elevationOfPrivilege": 2
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -481,13 +472,6 @@
                 "informationDisclosure": 1,
                 "denialOfService": 1
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -949,6 +933,10 @@
               "port": "f15ccbed-8730-4366-87e5-b12405c0b717"
             },
             "vertices": [
+              {
+                "x": 840,
+                "y": 380
+              },
               {
                 "x": 880,
                 "y": 380
@@ -4431,6 +4419,6 @@
     ],
     "diagramTop": 4,
     "reviewer": "",
-    "threatTop": 83
+    "threatTop": 85
   }
 }
