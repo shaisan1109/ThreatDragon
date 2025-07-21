@@ -1497,6 +1497,19 @@
                   "new": false,
                   "number": 71,
                   "score": ""
+                },
+                {
+                  "id": "1f541321-9369-4f2f-8faf-ffeb8461f540",
+                  "title": "Barista to Administrator Privilege Escalation",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Elevation of privilege",
+                  "description": "A Barista could exploit a vulnerability to gain Administrator privileges.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 78,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
@@ -1505,8 +1518,15 @@
                 "repudiation": 1,
                 "informationDisclosure": 2,
                 "denialOfService": 2,
-                "elevationOfPrivilege": 0
+                "elevationOfPrivilege": 1
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -1692,13 +1712,6 @@
                 "informationDisclosure": 1,
                 "denialOfService": 1
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -4351,6 +4364,6 @@
     ],
     "diagramTop": 4,
     "reviewer": "",
-    "threatTop": 77
+    "threatTop": 78
   }
 }
