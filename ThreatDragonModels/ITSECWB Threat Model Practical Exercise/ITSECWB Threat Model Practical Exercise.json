@@ -20,7 +20,7 @@
           {
             "position": {
               "x": 559.9999999999999,
-              "y": 345
+              "y": 335
             },
             "size": {
               "width": 150,
@@ -238,6 +238,19 @@
                   "new": false,
                   "number": 65,
                   "score": ""
+                },
+                {
+                  "id": "610645f3-767d-4b5b-aab1-12536dd334d4",
+                  "title": "MongoDB Database DoS",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Denial of service",
+                  "description": "Malicious or poorly optimized queries could overload the database, making it unresponsive.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 69,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
@@ -245,16 +258,9 @@
                 "tampering": 2,
                 "repudiation": 2,
                 "informationDisclosure": 2,
-                "denialOfService": 1,
+                "denialOfService": 2,
                 "elevationOfPrivilege": 0
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -419,23 +425,30 @@
                   "new": false,
                   "number": 52,
                   "score": ""
+                },
+                {
+                  "id": "816ada90-e81c-4926-b427-f77f48f0ee7b",
+                  "title": "MongoDB Database DoS",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Denial of service",
+                  "description": "Malicious or poorly optimized queries could overload the database, making it unresponsive.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 70,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
                 "tampering": 1,
                 "repudiation": 1,
                 "informationDisclosure": 1,
-                "denialOfService": 0
+                "denialOfService": 1
               }
             },
             "tools": {
               "items": [
-                "boundary",
-                "button-remove",
-                "boundary",
-                "button-remove",
-                "boundary",
-                "button-remove",
                 "boundary",
                 "button-remove"
               ],
@@ -4247,6 +4260,6 @@
     ],
     "diagramTop": 4,
     "reviewer": "",
-    "threatTop": 68
+    "threatTop": 70
   }
 }
