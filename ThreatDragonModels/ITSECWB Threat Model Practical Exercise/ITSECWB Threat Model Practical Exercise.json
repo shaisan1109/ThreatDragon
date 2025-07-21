@@ -1395,161 +1395,154 @@
                   "id": "d4c71011-c580-4492-afa6-fb9f93767b07",
                   "title": "Staff Account Spoofing",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Medium",
                   "type": "Spoofing",
                   "description": "An attacker could impersonate staff to manipulate order statuses, access sales reports, or modify menu items and application configurations.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 6,
-                  "score": ""
+                  "score": "5"
                 },
                 {
                   "id": "7aa43543-1953-4cf0-ae2b-5ce40f2123f2",
                   "title": "Web Application Server Spoofing",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Medium",
                   "type": "Spoofing",
                   "description": "An attacker might set up a fraudulent web server to phish user credentials or intercept sensitive data.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 16,
-                  "score": ""
+                  "score": "5"
                 },
                 {
                   "id": "2690fd3a-0ca3-4b33-9635-876aa4217816",
                   "title": "Order Data Tampering",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Medium",
                   "type": "Tampering",
                   "description": "An attacker could modify order details (e.g., items, quantities, prices, status) in transit or at rest.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 21,
-                  "score": ""
+                  "score": "7"
                 },
                 {
                   "id": "186187a8-e812-41dd-b82b-0c39050a7b01",
                   "title": "Application Code/Configuration Tampering",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Medium",
                   "type": "Tampering",
                   "description": "Malicious modification of the application’s source code, server configurations, or environment variables could introduce backdoors or disable security features.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 40,
-                  "score": ""
+                  "score": "6"
                 },
                 {
                   "id": "3b7bc636-fdea-4d66-8fc8-cc3618dcfebe",
                   "title": "Staff Action Repudiation",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Medium",
                   "type": "Repudiation",
                   "description": "Staff members (Barista, Manager, Administrator) could deny performing actions if audit logs are insufficient, not immutable, or can be tampered with.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 45,
-                  "score": ""
+                  "score": "5"
                 },
                 {
                   "id": "88900a4e-a26e-47e0-a242-a02146e42f15",
                   "title": "Staff Credential Disclosure",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "High",
                   "type": "Information disclosure",
                   "description": "Exposure of usernames, passwords, or session tokens for staff members due to insecure storage or unencrypted transmission",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 53,
-                  "score": ""
+                  "score": "10"
                 },
                 {
                   "id": "a901421d-d90c-4fb0-bfa4-93734d9d31b7",
                   "title": "Application Code and Configuration Disclosure",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Medium",
                   "type": "Information disclosure",
                   "description": "Exposure of source code, server configurations, environment variables, or API keys.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 60,
-                  "score": ""
+                  "score": "6"
                 },
                 {
                   "id": "313daca8-3b9e-486c-bd83-37de225f45ae",
                   "title": "Web Application Server DoS",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Medium",
                   "type": "Denial of service",
                   "description": "An attacker could flood the Web Application Server with excessive requests, making it unavailable. ",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 66,
-                  "score": ""
+                  "score": "7"
                 },
                 {
                   "id": "6f3b8cc2-ef24-4677-a510-c89f7b46265f",
                   "title": "MongoDB Database DoS",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Low",
                   "type": "Denial of service",
                   "description": "Malicious or poorly optimized queries could overload the database, making it unresponsive.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 71,
-                  "score": ""
+                  "score": "2"
                 },
                 {
                   "id": "1f541321-9369-4f2f-8faf-ffeb8461f540",
                   "title": "Barista to Administrator Privilege Escalation",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "High",
                   "type": "Elevation of privilege",
                   "description": "A Barista could exploit a vulnerability to gain Administrator privileges.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 78,
-                  "score": ""
+                  "score": "10"
                 },
                 {
                   "id": "b3a98c1e-117f-453a-a1cc-ae22fa17d9eb",
                   "title": "Horizontal Privilege Escalation",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Medium",
                   "type": "Elevation of privilege",
                   "description": "Gaining unauthorized access to another user’s account within the same privilege level.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 81,
-                  "score": ""
+                  "score": "6"
                 }
               ],
               "threatFrequency": {
-                "spoofing": 2,
-                "tampering": 2,
-                "repudiation": 1,
-                "informationDisclosure": 2,
-                "denialOfService": 2,
-                "elevationOfPrivilege": 2
+                "spoofing": 4,
+                "tampering": 4,
+                "repudiation": 2,
+                "informationDisclosure": 4,
+                "denialOfService": 4,
+                "elevationOfPrivilege": 4
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
