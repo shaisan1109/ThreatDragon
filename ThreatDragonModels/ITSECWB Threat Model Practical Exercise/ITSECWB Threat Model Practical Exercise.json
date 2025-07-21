@@ -694,7 +694,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "success message",
+              "name": "success/failure message",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -707,7 +707,7 @@
               "threats": []
             },
             "labels": [
-              "success message"
+              "success/failure message"
             ],
             "id": "6491f36b-493f-44c0-8470-377839986ae3",
             "source": {
@@ -900,17 +900,7 @@
                 "x": 710,
                 "y": 370
               }
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            ]
           },
           {
             "shape": "trust-boundary-curve",
