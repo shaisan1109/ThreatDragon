@@ -2735,13 +2735,6 @@
                 "denialOfService": 4,
                 "elevationOfPrivilege": 5
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -2872,74 +2865,81 @@
                   "id": "38a69dde-b403-459c-b37d-e1b1ec75f132",
                   "title": "Sales Report Tampering",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Medium",
                   "type": "Tampering",
                   "description": "Unauthorized individuals could alter sales data in the MongoDB Database, leading to falsified reports.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 36,
-                  "score": ""
+                  "score": "5"
                 },
                 {
                   "id": "16517a28-d31b-4861-8fe8-3308c7e01e83",
                   "title": "Staff Action Repudiation",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Medium",
                   "type": "Repudiation",
                   "description": "Staff members (Barista, Manager, Administrator) could deny performing actions if audit logs are insufficient, not immutable, or can be tampered with.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 48,
-                  "score": ""
+                  "score": "5"
                 },
                 {
                   "id": "0758349d-1425-433a-9a78-4e69121a38b6",
                   "title": "Staff Credential Disclosure",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "High",
                   "type": "Information disclosure",
                   "description": "Exposure of usernames, passwords, or session tokens for staff members due to insecure storage or unencrypted transmission",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 56,
-                  "score": ""
+                  "score": "10"
                 },
                 {
                   "id": "ba1cbbc2-4e31-4f56-af49-a7abd4b8665e",
                   "title": "Sales Data Disclosure",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Medium",
                   "type": "Information disclosure",
                   "description": "Unauthorized access to sales reports or underlying aggregated sales data.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 64,
-                  "score": ""
+                  "score": "7"
                 },
                 {
                   "id": "27ecb297-0862-4f40-8668-2df268c9987e",
                   "title": "MongoDB Database DoS",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Low",
                   "type": "Denial of service",
                   "description": "Malicious or poorly optimized queries could overload the database, making it unresponsive.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 74,
-                  "score": ""
+                  "score": "2"
                 }
               ],
               "threatFrequency": {
-                "tampering": 1,
-                "repudiation": 1,
-                "informationDisclosure": 2,
-                "denialOfService": 1
+                "tampering": 2,
+                "repudiation": 2,
+                "informationDisclosure": 4,
+                "denialOfService": 2
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -3181,18 +3181,18 @@
                   "id": "f03124ec-be5c-4894-9441-2a51c565b164",
                   "title": "Sales Report Tampering",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Medium",
                   "type": "Tampering",
                   "description": "Unauthorized individuals could alter sales data in the MongoDB Database, leading to falsified reports.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 38,
-                  "score": ""
+                  "score": "5"
                 }
               ],
               "threatFrequency": {
-                "tampering": 1,
+                "tampering": 2,
                 "informationDisclosure": 0,
                 "denialOfService": 0
               }
