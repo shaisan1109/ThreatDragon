@@ -2989,7 +2989,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "query for menu\nitem creation",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -3002,7 +3002,7 @@
               "threats": []
             },
             "labels": [
-              "Data Flow"
+              "query for menu\nitem creation"
             ],
             "id": "d0fb112c-1030-49d3-ad97-5565115be331",
             "source": {
@@ -3040,7 +3040,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "creation success\nmessage",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -3053,7 +3053,7 @@
               "threats": []
             },
             "labels": [
-              "Data Flow"
+              "creation success\nmessage"
             ],
             "id": "868919ed-a206-4e20-b7bd-0df5159c3538",
             "source": {
