@@ -1917,6 +1917,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -2000,7 +2001,6 @@
               ]
             },
             "id": "2b0e0876-d971-443b-b953-a33a6618e2c8",
-            "zIndex": 1,
             "data": {
               "type": "tm.Process",
               "name": "Web Application Server",
@@ -2040,6 +2040,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -2123,7 +2124,6 @@
               ]
             },
             "id": "b6b9aea8-ced4-443b-877b-d86d387352dc",
-            "zIndex": 2,
             "data": {
               "type": "tm.Store",
               "name": "MongoDB Database",
@@ -2151,7 +2151,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Barista"
+                "text": "Manager"
               },
               "body": {
                 "stroke": "#333333",
@@ -2161,6 +2161,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -2244,10 +2245,9 @@
               ]
             },
             "id": "64c7e806-6016-45a9-8082-2207aa7e57f5",
-            "zIndex": 3,
             "data": {
               "type": "tm.Actor",
-              "name": "Barista",
+              "name": "Manager",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
