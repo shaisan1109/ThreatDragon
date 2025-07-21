@@ -264,6 +264,19 @@
                   "new": false,
                   "number": 77,
                   "score": ""
+                },
+                {
+                  "id": "b00d5c38-4923-4ff6-87c8-a1820861fd22",
+                  "title": "Horizontal Privilege Escalation",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Elevation of privilege",
+                  "description": "Gaining unauthorized access to another user’s account within the same privilege level.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 80,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
@@ -272,11 +285,13 @@
                 "repudiation": 2,
                 "informationDisclosure": 2,
                 "denialOfService": 2,
-                "elevationOfPrivilege": 1
+                "elevationOfPrivilege": 2
               }
             },
             "tools": {
               "items": [
+                "boundary",
+                "button-remove",
                 "boundary",
                 "button-remove"
               ],
@@ -4377,6 +4392,6 @@
     ],
     "diagramTop": 4,
     "reviewer": "",
-    "threatTop": 79
+    "threatTop": 80
   }
 }
