@@ -3765,12 +3765,25 @@
                   "new": false,
                   "number": 68,
                   "score": ""
+                },
+                {
+                  "id": "1cf19e07-0cd1-4632-84a8-ac743a16a9d9",
+                  "title": "MongoDB Database DoS",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Repudiation",
+                  "description": "Malicious or poorly optimized queries could overload the database, making it unresponsive.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 75,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
                 "spoofing": 2,
                 "tampering": 3,
-                "repudiation": 1,
+                "repudiation": 2,
                 "informationDisclosure": 2,
                 "denialOfService": 1,
                 "elevationOfPrivilege": 1
@@ -3939,17 +3952,32 @@
                   "new": false,
                   "number": 58,
                   "score": ""
+                },
+                {
+                  "id": "2508ef7b-5267-4651-8228-1b68051cc77a",
+                  "title": "MongoDB Database DoS",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Denial of service",
+                  "description": "Malicious or poorly optimized queries could overload the database, making it unresponsive.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 76,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
                 "tampering": 1,
                 "repudiation": 1,
                 "informationDisclosure": 1,
-                "denialOfService": 0
+                "denialOfService": 1
               }
             },
             "tools": {
               "items": [
+                "boundary",
+                "button-remove",
                 "boundary",
                 "button-remove",
                 "boundary",
@@ -4303,6 +4331,6 @@
     ],
     "diagramTop": 4,
     "reviewer": "",
-    "threatTop": 74
+    "threatTop": 76
   }
 }
