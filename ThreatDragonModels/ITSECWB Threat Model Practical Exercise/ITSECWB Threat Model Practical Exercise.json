@@ -2521,13 +2521,26 @@
                   "new": false,
                   "number": 55,
                   "score": ""
+                },
+                {
+                  "id": "01edeb24-5029-4d91-b738-237f15956a0c",
+                  "title": "Application Code and Configuration Disclosure",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Exposure of source code, server configurations, environment variables, or API keys.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 61,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
                 "spoofing": 1,
                 "tampering": 3,
                 "repudiation": 1,
-                "informationDisclosure": 1,
+                "informationDisclosure": 2,
                 "denialOfService": 0,
                 "elevationOfPrivilege": 0
               }
@@ -4123,6 +4136,6 @@
     ],
     "diagramTop": 4,
     "reviewer": "",
-    "threatTop": 60
+    "threatTop": 61
   }
 }
