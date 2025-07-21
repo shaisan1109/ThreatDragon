@@ -160,11 +160,24 @@
                   "new": false,
                   "number": 14,
                   "score": ""
+                },
+                {
+                  "id": "929ccbe5-cabf-4e7d-a066-190c2b4b6021",
+                  "title": "Order Data Tampering",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "description": "An attacker could modify order details (e.g., items, quantities, prices, status) in transit or at rest.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 23,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
                 "spoofing": 2,
-                "tampering": 0,
+                "tampering": 1,
                 "repudiation": 0,
                 "informationDisclosure": 0,
                 "denialOfService": 0,
@@ -186,11 +199,13 @@
                 "text": "MongoDB Database"
               },
               "topLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -287,13 +302,33 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isALog": false,
               "isEncrypted": false,
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "4249c948-66f1-4733-ba90-99b24f04f3ff",
+                  "title": "Order Data Tampering",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "description": "An attacker could modify order details (e.g., items, quantities, prices, status) in transit or at rest.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 24,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
             }
           },
           {
@@ -568,7 +603,8 @@
             "shape": "flow",
             "attrs": {
               "line": {
-                "stroke": "#333333",
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "targetMarker": {
                   "name": "block"
                 },
@@ -589,12 +625,31 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isBidirectional": false,
               "isEncrypted": false,
               "isPublicNetwork": false,
               "protocol": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "24ba9ec9-69bb-42d8-94ea-689c31ad8866",
+                  "title": "Order Data Tampering",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "description": "An attacker could modify order details (e.g., items, quantities, prices, status) in transit or at rest.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 25,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
             },
             "labels": [
               "Submits order details"
@@ -639,7 +694,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "success message",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -652,7 +707,7 @@
               "threats": []
             },
             "labels": [
-              "Data Flow"
+              "success message"
             ],
             "id": "6491f36b-493f-44c0-8470-377839986ae3",
             "source": {
@@ -663,13 +718,19 @@
               "cell": "acef244c-00df-41fe-a410-fc73e6a65cae",
               "port": "82091dc3-54b0-4e0d-9925-7a2bc6e1ae45"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 890,
+                "y": 485
+              }
+            ]
           },
           {
             "shape": "flow",
             "attrs": {
               "line": {
-                "stroke": "#333333",
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "targetMarker": {
                   "name": "block"
                 },
@@ -690,12 +751,31 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isBidirectional": false,
               "isEncrypted": false,
               "isPublicNetwork": false,
               "protocol": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "5d183404-0064-41d0-93c0-914f4a594528",
+                  "title": "Order Data Tampering",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "description": "An attacker could modify order details (e.g., items, quantities, prices, status) in transit or at rest.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 26,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
             },
             "labels": [
               "sends new order details and payment status"
@@ -709,7 +789,12 @@
               "cell": "6379ee08-7d18-4e6d-8e07-e7d26951547e",
               "port": "f15ccbed-8730-4366-87e5-b12405c0b717"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 880,
+                "y": 380
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -815,7 +900,17 @@
                 "x": 710,
                 "y": 370
               }
-            ]
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           },
           {
             "shape": "trust-boundary-curve",
@@ -3498,6 +3593,6 @@
     ],
     "diagramTop": 4,
     "reviewer": "",
-    "threatTop": 22
+    "threatTop": 26
   }
 }
