@@ -1074,7 +1074,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "sends order confirmation and status update",
+              "name": "sends order confirmation\nand status update",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1087,7 +1087,7 @@
               "threats": []
             },
             "labels": [
-              "sends order confirmation and status update"
+              "sends order confirmation\nand status update"
             ],
             "id": "28384242-7623-4ef2-9080-b4552c670151",
             "source": {
