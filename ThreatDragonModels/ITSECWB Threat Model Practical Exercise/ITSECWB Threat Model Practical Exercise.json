@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +122,6 @@
               ]
             },
             "id": "acef244c-00df-41fe-a410-fc73e6a65cae",
-            "zIndex": 1,
             "data": {
               "type": "tm.Process",
               "name": "Web Application Server",
@@ -161,6 +161,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -244,7 +245,6 @@
               ]
             },
             "id": "6379ee08-7d18-4e6d-8e07-e7d26951547e",
-            "zIndex": 2,
             "data": {
               "type": "tm.Store",
               "name": "MongoDB Database",
@@ -282,6 +282,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -365,7 +366,6 @@
               ]
             },
             "id": "5437254f-863c-4a5f-a495-4398295b9a04",
-            "zIndex": 3,
             "data": {
               "type": "tm.Actor",
               "name": "Customer",
@@ -399,6 +399,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -482,7 +483,6 @@
               ]
             },
             "id": "accddddb-d4f7-4506-a634-a9f83d15e549",
-            "zIndex": 4,
             "data": {
               "type": "tm.Process",
               "name": "Payment Gateway",
@@ -544,56 +544,14 @@
             },
             "vertices": [
               {
-                "x": 420,
-                "y": 385
+                "x": 250,
+                "y": 340
+              },
+              {
+                "x": 470,
+                "y": 340
               }
             ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "sends order confirmation and status update",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "sends order confirmation and status update"
-            ],
-            "id": "28384242-7623-4ef2-9080-b4552c670151",
-            "source": {
-              "cell": "acef244c-00df-41fe-a410-fc73e6a65cae",
-              "port": "4155386f-9db0-4a3b-9e47-61735d88d601"
-            },
-            "target": {
-              "cell": "5437254f-863c-4a5f-a495-4398295b9a04",
-              "port": "8fc13073-f271-4601-b4a3-7e2885c0ae09"
-            },
-            "vertices": []
           },
           {
             "shape": "flow",
@@ -942,6 +900,61 @@
               {
                 "x": 780,
                 "y": 330
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "sends order confirmation and status update",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "sends order confirmation and status update"
+            ],
+            "id": "28384242-7623-4ef2-9080-b4552c670151",
+            "source": {
+              "cell": "acef244c-00df-41fe-a410-fc73e6a65cae",
+              "port": "4155386f-9db0-4a3b-9e47-61735d88d601"
+            },
+            "target": {
+              "cell": "5437254f-863c-4a5f-a495-4398295b9a04",
+              "port": "90ef2044-8f90-4110-b14d-4e52111e99e0"
+            },
+            "vertices": [
+              {
+                "x": 470,
+                "y": 530
+              },
+              {
+                "x": 340,
+                "y": 530
               }
             ]
           }
