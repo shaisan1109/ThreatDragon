@@ -2409,23 +2409,29 @@
                   "new": false,
                   "number": 41,
                   "score": ""
+                },
+                {
+                  "id": "496cc79c-dd1b-41a7-8ff9-ef3e487df881",
+                  "title": "Staff Action Repudiation",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Repudiation",
+                  "description": "Staff members (Barista, Manager, Administrator) could deny performing actions if audit logs are insufficient, not immutable, or can be tampered with.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 47,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
                 "spoofing": 1,
                 "tampering": 3,
-                "repudiation": 0,
+                "repudiation": 1,
                 "informationDisclosure": 0,
                 "denialOfService": 0,
                 "elevationOfPrivilege": 0
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -2564,14 +2570,34 @@
                   "new": false,
                   "number": 36,
                   "score": ""
+                },
+                {
+                  "id": "16517a28-d31b-4861-8fe8-3308c7e01e83",
+                  "title": "Staff Action Repudiation",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Repudiation",
+                  "description": "Staff members (Barista, Manager, Administrator) could deny performing actions if audit logs are insufficient, not immutable, or can be tampered with.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 48,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
                 "tampering": 1,
-                "repudiation": 0,
+                "repudiation": 1,
                 "informationDisclosure": 0,
                 "denialOfService": 0
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -3924,6 +3950,6 @@
     ],
     "diagramTop": 4,
     "reviewer": "",
-    "threatTop": 46
+    "threatTop": 48
   }
 }
