@@ -2508,8 +2508,8 @@
         "cells": [
           {
             "position": {
-              "x": 190,
-              "y": 260
+              "x": 80,
+              "y": 270
             },
             "size": {
               "width": 112.5,
@@ -2527,6 +2527,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -2610,7 +2611,6 @@
               ]
             },
             "id": "6077ae2c-075c-4efd-9c5a-0bdd3219c0bb",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Administrator",
@@ -2644,6 +2644,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -2727,7 +2728,6 @@
               ]
             },
             "id": "ef356d8b-a6d5-4fc9-ae00-f364c3f9a90a",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Web Application\nServer",
@@ -2767,6 +2767,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -2850,7 +2851,6 @@
               ]
             },
             "id": "3bf4365d-d26c-48ec-a8d6-f240a409d14c",
-            "zIndex": 3,
             "data": {
               "type": "tm.Store",
               "name": "MongoDB Database",
@@ -2913,7 +2913,7 @@
             },
             "vertices": [
               {
-                "x": 410,
+                "x": 330,
                 "y": 230
               }
             ]
@@ -2964,8 +2964,8 @@
             },
             "vertices": [
               {
-                "x": 400,
-                "y": 360
+                "x": 310,
+                "y": 370
               }
             ]
           },
@@ -3068,6 +3068,70 @@
               {
                 "x": 780,
                 "y": 360
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Application\nTrust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Application\nTrust Boundary"
+            ],
+            "id": "25acafba-6a89-436b-b148-a19a2916fb4e",
+            "source": {
+              "x": 440,
+              "y": 70
+            },
+            "target": {
+              "x": 450,
+              "y": 500
+            },
+            "vertices": [
+              {
+                "x": 470,
+                "y": 220
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Client\nTrust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Client\nTrust Boundary"
+            ],
+            "id": "8c334b78-8bad-4467-b5cf-4466dc17499e",
+            "source": {
+              "x": 260,
+              "y": 60
+            },
+            "target": {
+              "x": 270,
+              "y": 510
+            },
+            "vertices": [
+              {
+                "x": 260,
+                "y": 300
               }
             ]
           }
