@@ -2851,12 +2851,32 @@
                   "new": false,
                   "number": 11,
                   "score": ""
+                },
+                {
+                  "id": "89dd713d-76a4-4da2-a6dd-344aa40ddfaa",
+                  "title": "Web Application Server Spoofing",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Spoofing",
+                  "description": "An attacker might set up a fraudulent web server to phish user credentials or intercept sensitive data.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 19,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
-                "spoofing": 1,
+                "spoofing": 2,
                 "repudiation": 0
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -2989,11 +3009,24 @@
                   "new": false,
                   "number": 12,
                   "score": ""
+                },
+                {
+                  "id": "53879e24-0c41-4a2b-86e9-f170381b7bce",
+                  "title": "Web Application Server Spoofing",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Spoofing",
+                  "description": "An attacker might set up a fraudulent web server to phish user credentials or intercept sensitive data.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 20,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
-                "spoofing": 1,
-                "tampering": 0,
+                "spoofing": 2,
+                "tampering": 1,
                 "repudiation": 0,
                 "informationDisclosure": 0,
                 "denialOfService": 0,
@@ -3430,6 +3463,6 @@
     ],
     "diagramTop": 4,
     "reviewer": "",
-    "threatTop": 18
+    "threatTop": 20
   }
 }
