@@ -3870,13 +3870,6 @@
                 "denialOfService": 1,
                 "elevationOfPrivilege": 4
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -4007,68 +4000,64 @@
                   "id": "d42342e2-0c6c-46f4-8abb-31377a9f88bf",
                   "title": "Menu Data Tampering",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Medium",
                   "type": "Tampering",
                   "description": "An attacker could alter menu item data (e.g., prices or descriptions) before it is stored in the database.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 32,
-                  "score": ""
+                  "score": "6"
                 },
                 {
                   "id": "e1af0125-9af9-4c07-8467-61c3f7978cc2",
                   "title": "Staff Action Repudiation",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Medium",
                   "type": "Repudiation",
                   "description": "Staff members (Barista, Manager, Administrator) could deny performing actions if audit logs are insufficient, not immutable, or can be tampered with.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 50,
-                  "score": ""
+                  "score": "5"
                 },
                 {
                   "id": "54cf135a-d018-4f51-99d7-06a38b483630",
                   "title": "Staff Credential Disclosure",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "High",
                   "type": "Information disclosure",
                   "description": "Exposure of usernames, passwords, or session tokens for staff members due to insecure storage or unencrypted transmission",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 58,
-                  "score": ""
+                  "score": "10"
                 },
                 {
                   "id": "2508ef7b-5267-4651-8228-1b68051cc77a",
                   "title": "MongoDB Database DoS",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Low",
                   "type": "Denial of service",
                   "description": "Malicious or poorly optimized queries could overload the database, making it unresponsive.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 76,
-                  "score": ""
+                  "score": "2"
                 }
               ],
               "threatFrequency": {
-                "tampering": 1,
-                "repudiation": 1,
-                "informationDisclosure": 1,
-                "denialOfService": 1
+                "tampering": 2,
+                "repudiation": 2,
+                "informationDisclosure": 2,
+                "denialOfService": 2
               }
             },
             "tools": {
               "items": [
-                "boundary",
-                "button-remove",
-                "boundary",
-                "button-remove",
                 "boundary",
                 "button-remove"
               ],
@@ -4233,18 +4222,18 @@
                   "id": "94abaefb-15d5-4889-b9e0-c42646de3dbb",
                   "title": "Menu Data Tampering",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Medium",
                   "type": "Tampering",
                   "description": "An attacker could alter menu item data (e.g., prices or descriptions) before it is stored in the database.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 33,
-                  "score": ""
+                  "score": "6"
                 }
               ],
               "threatFrequency": {
-                "tampering": 1,
+                "tampering": 2,
                 "informationDisclosure": 0,
                 "denialOfService": 0
               }
