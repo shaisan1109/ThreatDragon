@@ -2669,12 +2669,25 @@
                   "title": "MongoDB Database DoS",
                   "status": "Open",
                   "severity": "TBD",
-                  "type": "Elevation of privilege",
+                  "type": "Denial of service",
                   "description": "Malicious or poorly optimized queries could overload the database, making it unresponsive.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 73,
+                  "score": ""
+                },
+                {
+                  "id": "c9c43c93-0957-4fe7-b7a6-9db197b81199",
+                  "title": "Manager to Administrator Privilege Escalation",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Elevation of privilege",
+                  "description": "A Manager could exploit a vulnerability to gain Administrator privileges.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 79,
                   "score": ""
                 }
               ],
@@ -2683,8 +2696,8 @@
                 "tampering": 3,
                 "repudiation": 1,
                 "informationDisclosure": 3,
-                "denialOfService": 1,
-                "elevationOfPrivilege": 1
+                "denialOfService": 2,
+                "elevationOfPrivilege": 2
               }
             }
           },
@@ -4364,6 +4377,6 @@
     ],
     "diagramTop": 4,
     "reviewer": "",
-    "threatTop": 78
+    "threatTop": 79
   }
 }
