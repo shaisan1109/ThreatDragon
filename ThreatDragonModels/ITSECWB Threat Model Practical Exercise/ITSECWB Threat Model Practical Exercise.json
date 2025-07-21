@@ -2534,13 +2534,26 @@
                   "new": false,
                   "number": 61,
                   "score": ""
+                },
+                {
+                  "id": "d5b023cc-9abd-4c04-9b93-d6fa4fe6307e",
+                  "title": "Sales Data Disclosure",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Unauthorized access to sales reports or underlying aggregated sales data.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 63,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
                 "spoofing": 1,
                 "tampering": 3,
                 "repudiation": 1,
-                "informationDisclosure": 2,
+                "informationDisclosure": 3,
                 "denialOfService": 0,
                 "elevationOfPrivilege": 0
               }
@@ -2708,17 +2721,34 @@
                   "new": false,
                   "number": 56,
                   "score": ""
+                },
+                {
+                  "id": "ba1cbbc2-4e31-4f56-af49-a7abd4b8665e",
+                  "title": "Sales Data Disclosure",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Unauthorized access to sales reports or underlying aggregated sales data.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 64,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
                 "tampering": 1,
                 "repudiation": 1,
-                "informationDisclosure": 1,
+                "informationDisclosure": 2,
                 "denialOfService": 0
               }
             },
             "tools": {
               "items": [
+                "boundary",
+                "button-remove",
+                "boundary",
+                "button-remove",
                 "boundary",
                 "button-remove"
               ],
@@ -4158,6 +4188,6 @@
     ],
     "diagramTop": 4,
     "reviewer": "",
-    "threatTop": 62
+    "threatTop": 64
   }
 }
