@@ -199,13 +199,26 @@
                   "new": false,
                   "number": 43,
                   "score": ""
+                },
+                {
+                  "id": "3a54b5d0-f1b0-43e2-9a81-ad29901bfbf2",
+                  "title": "Customer PII Disclosure",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Unauthorized access to customer names, contact details, delivery addresses, and order history.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 51,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
                 "spoofing": 2,
                 "tampering": 2,
                 "repudiation": 2,
-                "informationDisclosure": 0,
+                "informationDisclosure": 1,
                 "denialOfService": 0,
                 "elevationOfPrivilege": 0
               }
@@ -360,17 +373,36 @@
                   "new": false,
                   "number": 44,
                   "score": ""
+                },
+                {
+                  "id": "251f8c4d-26b9-480d-8eac-ad3427a91df0",
+                  "title": "Customer PII Disclosure",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Unauthorized access to customer names, contact details, delivery addresses, and order history.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 52,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
                 "tampering": 1,
                 "repudiation": 1,
-                "informationDisclosure": 0,
+                "informationDisclosure": 1,
                 "denialOfService": 0
               }
             },
             "tools": {
               "items": [
+                "boundary",
+                "button-remove",
+                "boundary",
+                "button-remove",
+                "boundary",
+                "button-remove",
                 "boundary",
                 "button-remove"
               ],
@@ -3983,6 +4015,6 @@
     ],
     "diagramTop": 4,
     "reviewer": "",
-    "threatTop": 50
+    "threatTop": 52
   }
 }
