@@ -1543,6 +1543,13 @@
                 "denialOfService": 2,
                 "elevationOfPrivilege": 2
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -1849,31 +1856,31 @@
                   "id": "f96f1eb0-b841-4aad-9fe8-4c36f827f0b5",
                   "title": "Staff Account Spoofing",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Medium",
                   "type": "Spoofing",
                   "description": "An attacker could impersonate staff to manipulate order statuses, access sales reports, or modify menu items and application configurations.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 5,
-                  "score": ""
+                  "score": "5"
                 },
                 {
                   "id": "fa00ba06-bcd2-4111-b1cd-0e510ed60ad4",
                   "title": "Web Application Server Spoofing",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Medium",
                   "type": "Spoofing",
                   "description": "An attacker might set up a fraudulent web server to phish user credentials or intercept sensitive data.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 15,
-                  "score": ""
+                  "score": "5"
                 }
               ],
               "threatFrequency": {
-                "spoofing": 2,
+                "spoofing": 4,
                 "repudiation": 0
               }
             }
@@ -2138,18 +2145,18 @@
                   "id": "49e40f24-f288-4265-a95d-e1f7fa2865d9",
                   "title": "Order Data Tampering",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Medium",
                   "type": "Tampering",
                   "description": "An attacker could modify order details (e.g., items, quantities, prices, status) in transit or at rest.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 30,
-                  "score": ""
+                  "score": "7"
                 }
               ],
               "threatFrequency": {
-                "tampering": 1,
+                "tampering": 2,
                 "informationDisclosure": 0,
                 "denialOfService": 0
               }
@@ -2209,18 +2216,18 @@
                   "id": "4df9f6df-383e-4f0f-9049-2b7c35c3168d",
                   "title": "Order Data Tampering",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Medium",
                   "type": "Tampering",
                   "description": "An attacker could modify order details (e.g., items, quantities, prices, status) in transit or at rest.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 27,
-                  "score": ""
+                  "score": "7"
                 }
               ],
               "threatFrequency": {
-                "tampering": 1,
+                "tampering": 2,
                 "informationDisclosure": 0,
                 "denialOfService": 0
               }
