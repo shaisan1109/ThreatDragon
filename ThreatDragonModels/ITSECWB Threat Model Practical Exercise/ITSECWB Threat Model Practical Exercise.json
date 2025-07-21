@@ -147,10 +147,23 @@
                   "new": false,
                   "number": 2,
                   "score": ""
+                },
+                {
+                  "id": "7dbb8e14-22af-4937-a9a7-4cd64e49e4d6",
+                  "title": "Web Application Server Spoofing",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Spoofing",
+                  "description": "An attacker might set up a fraudulent web server to phish user credentials or intercept sensitive data.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 14,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
-                "spoofing": 1,
+                "spoofing": 2,
                 "tampering": 0,
                 "repudiation": 0,
                 "informationDisclosure": 0,
@@ -410,10 +423,23 @@
                   "new": false,
                   "number": 1,
                   "score": ""
+                },
+                {
+                  "id": "ec4fa8ee-dede-4ed9-9de0-4d9660fde036",
+                  "title": "Web Application Server Spoofing",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Spoofing",
+                  "description": "An attacker might set up a fraudulent web server to phish user credentials or intercept sensitive data.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 13,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
-                "spoofing": 1,
+                "spoofing": 2,
                 "repudiation": 0
               }
             }
@@ -3352,6 +3378,6 @@
     ],
     "diagramTop": 4,
     "reviewer": "",
-    "threatTop": 12
+    "threatTop": 14
   }
 }
